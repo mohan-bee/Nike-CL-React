@@ -1,0 +1,43 @@
+.hero{
+    display: flex;
+    padding: 80px 158px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.content h1{
+    font-size: 108px;
+    font-weight: 1200;
+    line-height: 90px;
+}
+.content p{
+    width: 404px;
+    color: #5A5959;
+    font-weight: 600;
+}
+.content .buttons{
+    display: flex;
+    gap: 40px;
+}
+.content .buttons button{
+    font-size: 24px;
+}
+.secondary{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+.avail p{
+    font-weight: 300;
+}
+.avail .images{
+    display: flex;
+    gap: 20px;
+}
+
+.image-section{
+    display: auto;
+    margin: auto 0;
+}

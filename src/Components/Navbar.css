@@ -1,0 +1,22 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+.list-items{
+    display: flex;
+    list-style-type: none;
+    gap: 24px;
+}
+button{
+    border: none;
+    outline: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 400;
+}
+button.primary{
+    color: #ffffff;
+    background-color: #d01c28;
+}
